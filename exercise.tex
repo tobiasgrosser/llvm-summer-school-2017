@@ -68,7 +68,7 @@ We begin with a simple scalar loop program, vector addition:
 
 void vector_addition(float *A, float *B) {
   // We assume that N is a multiple of 4.
-  for (long i = 0; i < N/4; i++)
+  for (long i = 0; i < N; i++)
     A[i] += B[i];
 }
 \end{minted}
